@@ -19,9 +19,9 @@ And in the emerged window locate the ngrok-assigned server DNS and client port a
 ```
 socket_client.connect( (<SERVER DNS>, <CLIENT PORT>))
 ```
-Example with server DNS: 0.tcp.ngrok.io and client port: 12345
+Example with server DNS: * *0.tcp.ngrok.io* * and client port: * *12345* *
 ```
 socket_client.connect( ("0.tcp.ngrok.io", 12345))
 ```
 Then run **server.py** first and **client.py** after that.
-To end the process, in the clien terminal write `quit`
+To end the process, in the client terminal write `quit`
