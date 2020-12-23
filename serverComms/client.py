@@ -5,8 +5,8 @@ import socket
 socket_client = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Que puertos
-#socket_client.connect( ( ,  ) )
-socket_client.connect( ("0.tcp.ngrok.io", 13547))
+socket_client.connect( (<"SERVER DNS"> , <CLIENT PORT>) )	# FOLLOW README INSTRUCTIONS AND REPLACE WITH REAL PARAMETERS
+#socket_client.connect( ("0.tcp.ngrok.io", 13547))
 #socket_client.connect( ("localhost", 9999) )
 
 # Mensaje
