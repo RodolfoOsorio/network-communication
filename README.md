@@ -9,7 +9,7 @@ This program implements client-server communication using basic TCP in Python.
 Server and client files can be run in different OS.
 
 This also uses ngrok app so that no public IP on the local machine will be needed. Therefore, a ngrok account and running app are necessary.
-For information on installation and activation, visit [ngrok website] (https://ngrok.com/)
+For information on installation and activation, visit [ngrok website](https://ngrok.com/)
 
 Once configured, use the command
 ```
