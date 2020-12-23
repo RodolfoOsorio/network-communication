@@ -1,5 +1,5 @@
 # network-communication
-These files are class activities for the Real-Time Digital Signal Processing course.
+These files are class activities for the 2021-1 Real-Time Digital Signal Processing course.
 
 ## sendMatrix
 This program sends a pre-generated numpy matrix from client to server using 8-bit codification on client side and its respective decodification on server side. Both server and client programs should be run in the same computer.
