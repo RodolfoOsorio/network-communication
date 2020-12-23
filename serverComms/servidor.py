@@ -20,6 +20,7 @@ print("tcp client", remote_client_tcp)
 # Recibir un mensaje
 while True:
 	mensaje = socket_client.recv(1024)
+	socket_client.send(mensaje)		# envia echo
 	if mensaje == b"quit":
 		break
 	print("> ", mensaje)
